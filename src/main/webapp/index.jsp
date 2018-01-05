@@ -1,15 +1,25 @@
 <html>
-<head>
-<title>Hello World!</title>
-</head>
-<body>
-        <h1>Hello World!</h1>
-        <h2>Sumanth</h2>
-	<h3>Its working</h3>
-        <p>
-                It is now
-                <%= new java.util.Date() %></p>
-        <p>
-                I am coming from
-                <%= request.getRemoteAddr()  %></p>
-</body>
+  <head>
+    <title>Sample Application JSP Page</title>
+  </head>
+
+  <body bgcolor=white>
+
+  <table border="0" cellpadding="10">
+    <tr>
+      <td align=center>
+        <img src="images/springsource.png">
+      </td>
+      <td>
+         <h1>Sample Application JSP Page</h1>
+      </td>
+    </tr>
+  </table>
+
+  <br />
+  <p>This is the output of a JSP page that is part of the HelloWorld application.</p>
+
+  <%= new String("Hello!") %>
+
+  </body>
+</html>
